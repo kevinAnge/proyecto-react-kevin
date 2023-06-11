@@ -1,6 +1,5 @@
 import React, { useContext, useState, useEffect } from "react";
 import { CartContext } from "../../contenido/ContenidoCarritoCompra";
-import axios from 'axios';
 let idItem = 0;
 
 export const ShoppingCart = () => {
