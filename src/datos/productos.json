@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop",
+    "autor": "Kevin",
+    "price": 10,
+    "category": "Romance",
+    "resumen": "Existen diferentes maneras de hacer el resumen de un libro; por eso, empezaremos con un método que basa toda tu atención en la comprensión lectora y la capacidad que tiene tu cerebro para captar solamente las ideas más importantes de un texto largo y rechazar las tramas que no aportan nadaUna descripción es la acción y efecto de describir, esto es, de explicar o representar detalladamente por medio del lenguaje los rasgos característicos de un objeto, persona, lugar, situación o acontecimiento.Una descripción es la acción y efecto de describir, esto es, de explicar o representar detalladamente por medio del lenguaje los rasgos característicos de un objeto, persona, lugar, situación o acontecimiento.",
+    "imgUrl": "./img/libros/book-action1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "laptop",
+    "autor": "Kevin",
+    "price": 800,
+    "category": "Aventura",
+    "resumen": "Existen diferentes maneras de hacer el resumen de un libro; por eso, empezaremos con un método que basa toda tu atención en la comprensión lectora y la capacidad que tiene tu cerebro para captar solamente las ideas más importantes de un texto largo y rechazar las tramas que no aportan nadaUna descripción es la acción y efecto de describir, esto es, de explicar o representar detalladamente por medio del lenguaje los rasgos característicos de un objeto, persona, lugar, situación o acontecimiento.Una descripción es la acción y efecto de describir, esto es, de explicar o representar detalladamente por medio del lenguaje los rasgos característicos de un objeto, persona, lugar, situación o acontecimiento.",
+    "imgUrl": "./img/libros/book-action2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "TV",
+    "autor": "Kevin",
+    "price": 400,
+    "category": "Terror",
+    "resumen": "Existen diferentes maneras de hacer el resumen de un libro; por eso, empezaremos con un método que basa toda tu atención en la comprensión lectora y la capacidad que tiene tu cerebro para captar solamente las ideas más importantes de un texto largo y rechazar las tramas que no aportan nadaUna descripción es la acción y efecto de describir, esto es, de explicar o representar detalladamente por medio del lenguaje los rasgos característicos de un objeto, persona, lugar, situación o acontecimiento.Una descripción es la acción y efecto de describir, esto es, de explicar o representar detalladamente por medio del lenguaje los rasgos característicos de un objeto, persona, lugar, situación o acontecimiento.",
+    "imgUrl": "./img/libros/book-action3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "television",
+    "autor": "Kevin",
+    "category": "Suspenso",
+    "price": 5000,
+    "resumen": "Existen diferentes maneras de hacer el resumen de un libro; por eso, empezaremos con un método que basa toda tu atención en la comprensión lectora y la capacidad que tiene tu cerebro para captar solamente las ideas más importantes de un texto largo y rechazar las tramas que no aportan nadaUna descripción es la acción y efecto de describir, esto es, de explicar o representar detalladamente por medio del lenguaje los rasgos característicos de un objeto, persona, lugar, situación o acontecimiento.Una descripción es la acción y efecto de describir, esto es, de explicar o representar detalladamente por medio del lenguaje los rasgos característicos de un objeto, persona, lugar, situación o acontecimiento.",
+    "imgUrl": "./img/libros/book-action4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "tv",
+    "autor": "Kevin",
+    "price": 400,
+    "category": "Romance",
+    "resumen": "Existen diferentes maneras de hacer el resumen de un libro; por eso, empezaremos con un método que basa toda tu atención en la comprensión lectora y la capacidad que tiene tu cerebro para captar solamente las ideas más importantes de un texto largo y rechazar las tramas que no aportan nadaUna descripción es la acción y efecto de describir, esto es, de explicar o representar detalladamente por medio del lenguaje los rasgos característicos de un objeto, persona, lugar, situación o acontecimiento.Una descripción es la acción y efecto de describir, esto es, de explicar o representar detalladamente por medio del lenguaje los rasgos característicos de un objeto, persona, lugar, situación o acontecimiento.",
+    "imgUrl": "./img/libros/book-action3.jpg"
+  },
+  {
+    "id": 6,
+    "name": "tv",
+    "autor": "Kevin",
+    "price": 550,
+    "category": "Aventura",
+    "resumen": "Existen diferentes maneras de hacer el resumen de un libro; por eso, empezaremos con un método que basa toda tu atención en la comprensión lectora y la capacidad que tiene tu cerebro para captar solamente las ideas más importantes de un texto largo y rechazar las tramas que no aportan nadaUna descripción es la acción y efecto de describir, esto es, de explicar o representar detalladamente por medio del lenguaje los rasgos característicos de un objeto, persona, lugar, situación o acontecimiento.Una descripción es la acción y efecto de describir, esto es, de explicar o representar detalladamente por medio del lenguaje los rasgos característicos de un objeto, persona, lugar, situación o acontecimiento.",
+    "imgUrl": "./img/libros/book-action4.jpg"
+  },
+  {
+    "id": 7,
+    "name": "tv",
+    "autor": "Kevin",
+    "price": 400,
+    "category": "Romance",
+    "resumen": "Existen diferentes maneras de hacer el resumen de un libro; por eso, empezaremos con un método que basa toda tu atención en la comprensión lectora y la capacidad que tiene tu cerebro para captar solamente las ideas más importantes de un texto largo y rechazar las tramas que no aportan nadaUna descripción es la acción y efecto de describir, esto es, de explicar o representar detalladamente por medio del lenguaje los rasgos característicos de un objeto, persona, lugar, situación o acontecimiento.Una descripción es la acción y efecto de describir, esto es, de explicar o representar detalladamente por medio del lenguaje los rasgos característicos de un objeto, persona, lugar, situación o acontecimiento.",
+    "imgUrl": "./img/libros/book-action3.jpg"
+  },
+  {
+    "id": 8,
+    "name": "tv",
+    "autor": "Kevin",
+    "price": 550,
+    "category": "Terror",
+    "resumen": "Existen diferentes maneras de hacer el resumen de un libro; por eso, empezaremos con un método que basa toda tu atención en la comprensión lectora y la capacidad que tiene tu cerebro para captar solamente las ideas más importantes de un texto largo y rechazar las tramas que no aportan nadaUna descripción es la acción y efecto de describir, esto es, de explicar o representar detalladamente por medio del lenguaje los rasgos característicos de un objeto, persona, lugar, situación o acontecimiento.Una descripción es la acción y efecto de describir, esto es, de explicar o representar detalladamente por medio del lenguaje los rasgos característicos de un objeto, persona, lugar, situación o acontecimiento.",
+    "imgUrl": "./img/libros/book-action4.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Laptop",
+    "autor": "Kevin",
+    "price": 100,
+    "category": "terror",
+    "resumen": "Existen diferentes maneras de hacer el resumen de un libro; por eso, empezaremos con un método que basa toda tu atención en la comprensión lectora y la capacidad que tiene tu cerebro para captar solamente las ideas más importantes de un texto largo y rechazar las tramas que no aportan nadaUna descripción es la acción y efecto de describir, esto es, de explicar o representar detalladamente por medio del lenguaje los rasgos característicos de un objeto, persona, lugar, situación o acontecimiento.Una descripción es la acción y efecto de describir, esto es, de explicar o representar detalladamente por medio del lenguaje los rasgos característicos de un objeto, persona, lugar, situación o acontecimiento.",
+    "imgUrl": "./img/libros/book-action1.jpg"
+  }
+]

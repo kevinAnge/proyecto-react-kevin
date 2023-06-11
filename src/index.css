@@ -1,0 +1,587 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 1650px;
+  margin: 0 auto;
+  background-color: rgb(248, 248, 248);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+nav {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 3px;
+}
+
+nav > h2 {
+  position: relative;
+  left: 60;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  width: 35%;
+  list-style: none;
+  cursor: pointer;
+}
+
+/******** Items List ******/
+
+.items-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-auto-rows: minmax(350px, 150px);
+  gap: 25px;
+  margin: 3% 10%;
+}
+
+/****** Item  box *********/
+
+.item-box {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  border: 1px solid #d8d8d8;
+  overflow: hidden;
+}
+
+.item-box .capa h3{
+  text-transform: uppercase;
+}
+
+.contenedor-boton{
+  display: flex;
+}
+
+.contenedor-boton .animacion-boton {
+  position: relative;
+  --c: rgb(187, 143, 34);
+  color: var(--c);
+  background-color: #000000;
+  border: 0.3em solid var(--c);
+  border-radius: 0.5em;
+  width: 40%;
+  padding: 0.5em 0;
+  font-size: 13px;
+  text-align: center;
+  overflow: hidden;
+  z-index: 1;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.contenedor-boton .animacion-boton span {
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  background-color: var(--c);
+  transform: translateY(150%);
+  border-radius: 50%;
+  left: calc((var(--n) - 1) * 25%);
+  transition: 0.5s;
+  transition-delay: calc((var(--n) - 1) * 0.1s);
+  z-index: -1;
+}
+
+.contenedor-boton .animacion-boton:hover {
+  color: black;
+}
+
+.contenedor-boton .animacion-boton:hover span {
+  transform: translateY(0) scale(2);
+}
+
+.contenedor-boton .animacion-boton span:nth-child(1) {
+  --n: 1;
+}
+
+.contenedor-boton .animacion-boton span:nth-child(2) {
+  --n: 2;
+}
+
+.contenedor-boton .animacion-boton span:nth-child(3) {
+  --n: 3;
+}
+
+.contenedor-boton .animacion-boton span:nth-child(4) {
+  --n: 4;
+}
+
+/****** Buscador ********/
+
+.mensaje-error{
+  margin-top: 40px;
+  height: 800px;
+}
+
+.contenedor-libros-buscar{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.contenedor-buscador-div{
+  display: flex;
+  align-items: center;
+}
+
+.libros-buscador{
+  width: 15%;
+  height: 200px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.libros-buscador > *{
+  width: 100%;
+  height: 100%;
+}
+
+.libros-buscador > *:hover{
+  opacity: 0.8;
+  transition: all 1s;
+}
+
+.contenedor-texto{
+  background-color: #e6e6e6;
+  width: 80%;
+  height: 100%;
+  margin-left: 20px;
+}
+
+/****** Shopping Cart ********/
+.estilo-tabla{
+  font-size: 20px;
+}
+
+.btn-delete{
+  cursor: pointer;
+}
+
+.contenedor-carrito{
+  position: relative;
+}
+
+.cart-count {
+  position: absolute;
+  right: 0;
+  background-color: rgb(255, 0, 0);
+  border-radius: 5px;
+  padding: 15% 15%;
+}
+
+.img-cart{
+  width: 3em;
+  height: 3em;
+}
+
+.img-eliminar{
+  width: 1.5em;
+}
+
+.libros-catalogo {
+  width: 50%;
+}
+
+/****** Ventajas de comprar libros online  ********/
+
+.lista-ventajas{
+  list-style-image: url('img/google-icons/icon-libro.png');
+}
+
+/****** Animaciones  ********/
+
+.item-box { 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-box {
+  position:relative;
+  height: 100%;
+  cursor: pointer;
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.5);
+}
+
+.item-box img{
+  width: 100%;
+  height: 100%;
+  transition: all 400ms ease-out;
+  will-change: transform;
+}
+
+.item-box .capa{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000000b3;
+  transition: all 400ms ease-out;
+  opacity: 0;
+  text-align: center;
+}
+
+.item-box:hover > .capa {
+  opacity: 1;
+  visibility: visible;
+}
+
+.item-box:hover > .capa h3{
+  margin-top: 70px;
+  margin-bottom: 5px;
+}
+
+.item-box:hover > img{
+  transform: scale(1.3);
+}
+
+.item-box .capa h3{
+  color: #fff;
+  transition: all 400ms ease-out;
+  margin-top: 30px;
+  font-size: 2em;
+}
+
+.item-box .capa h4{
+  font-size: 1.5em;
+  margin-bottom: 2px;
+}
+
+.item-box .capa p{
+  color: #fff;
+  font-size: 1em;
+  margin: 3px 0;
+}
+
+/********** sugerencia auto completado **************/
+
+.sugerencia{
+  padding: 5px;
+}
+
+.react-autosuggest__container{
+  width: 65%;
+  position: relative;
+}
+
+.react-autosuggest__suggestions-container--open {
+  display: block;
+  position: absolute;
+  top: 14px;
+  width: 100%;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  z-index: 2;
+  max-height: 300px;
+  overflow: auto;
+  margin-top: 16px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.react-autosuggest__suggestions-list{
+  list-style: none;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  cursor: pointer;
+}
+
+.react-autosuggest__input{
+  width: 100%;
+  height: 30px;
+}
+
+.react-autosuggest__suggestion--highlighted {
+  background-color: #ddd;
+}
+
+/******* mensaje ********/
+
+.mensaje{
+  height: 400px;
+  background-image: linear-gradient(
+        0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+  ),url('./img/libro-tecnologico.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0.5% 0;
+  background-position: center center;
+}
+
+
+/********* Bontones filtro **********/
+
+.categories {
+  width: 82%;
+	margin: 1.5rem auto;
+	text-align: center;
+  border: 1px solid rgb(222, 222, 222);
+  background-color: #f3f3f3;
+}
+
+.btn-category {
+	padding: 12px 25px;
+	border: none;
+	margin-right: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+	cursor: pointer;
+	border-radius: 15px;
+	background-color: #000000;
+	color: #ffffff;
+	font-weight: 700;
+	font-size: 16px;
+	transition: all 0.4s cubic-bezier(1, -0, 0.6, 1.35);
+}
+
+.btn-category:hover {
+	background-color: rgb(29, 29, 29);
+}
+
+.btn-category:last-child {
+	margin-right: 0;
+}
+
+
+/******* Ventajas de comprar libros online ********/
+
+.aprender-img{
+  width: 37%;
+}
+
+.aprender-lista{
+  width: 40%;
+}
+
+.contenedor-descripcion{
+  width: 70%;
+}
+
+/******* Formularios ********/
+
+.width-form{
+  width: 50%;
+}
+
+.registro{
+  margin: 5% 0;
+}
+
+.login{
+  margin: 9.5% 0;
+}
+
+/******* Descripción ********/
+
+.contenedor-libro-descripcion{
+  margin-top: 90px;
+  margin-bottom: 90px;
+  width: 90%;
+}
+
+.contenedor-caracteristica{
+  display: flex;
+}
+
+.texto-descripcion{
+  font-size: 1.2em;
+}
+
+.libro-img{
+  width: 30%;
+}
+
+.caracteristicas-libro{
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.caracteristicas-libro > *{
+  margin: 10px 0;
+  font-size: 1.3em;
+}
+
+.libro-descripcion{
+  display: flex;
+  flex-direction: column;
+}
+
+/******* Anuncios ********/
+
+.contenedor-texto-anuncio{
+  overflow: hidden;
+  height: 70px;
+}
+
+.contenedor-texto > *{
+  margin-left: 20px;
+}
+
+.contenedor-anuncio{
+  width: 28%;
+}
+
+/******* Pie de pagina ********/
+
+.social-icons{
+  width: 40px;
+  background-color: #ffffff;
+}
+
+/*************** Breakpoints *****************/
+
+/**** Breakpoints shopping cart ****/
+
+@media (max-width: 1041px) {
+  .aprender-img{
+    display: none;
+  }
+
+  .aprender-lista{
+    width: 60%;
+  }
+
+  .contenedor-descripcion{
+    width: 70%;
+  }
+
+  .libro-img{
+    width: 40%;
+  }
+}
+
+@media (max-width: 830px) {
+  .contenedor-buscador-div{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .libros-buscador{
+    width: 40%;
+    height: 350px;
+  }
+
+  .contenedor-texto{
+    background-color: #e6e6e6;
+    width: 80%;
+    height: 100%;
+    margin-left: 0;
+  }
+
+  .contenedor-caracteristica{
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 780px) {
+  .Anuncios-lista{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+  }
+
+  .Anuncios-lista > *{
+    width: 70%;
+  }
+
+  .aprender-lista{
+    width: 80%;
+  }
+
+  .caracteristicas-libro{
+    margin-left: 12px;
+  }
+
+  .caracteristicas-libro > *{
+    font-size: 1.3em;
+  }
+
+  .libro-img{
+    width: 50%;
+  }
+  
+}
+
+@media (max-width: 570px) {
+  .width-form{
+    width: 80%;
+  }
+
+  .aprender-lista{
+    width: 100%;
+  }
+
+  body{
+    font-size: 14px;
+  }
+
+  .desplegable{
+    font-size: 13px;
+  }
+
+  .item-box .capa .contenedor-boton{
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .libros-buscador{
+    width: 52%;
+    height: 250px;
+  }
+
+  .contenedor-libros-buscar{
+    width: 100%;
+  }
+
+  .libro-img{
+    width: 70%;
+    margin-bottom: 30px;
+  }
+
+}
+
+@media (max-width: 480px) {
+    .estilo-tabla{
+      font-size: 13px;
+    }
+
+    .contenedor-descripcion{
+      width: 85%;
+    }
+}
+
+@media (max-width: 440px) {
+
+  body{
+    font-size: 11.8px;
+  }
+
+  .desplegable{
+    font-size: 10px;
+  }
+}
+
